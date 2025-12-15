@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نشر إعلان</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Tahoma;
+    background: #f5f5f5;
+}
+
+.header {
+    background: #0b6fa4;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form {
+    padding: 15px;
+}
+
+.form input, .form select, .form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form button {
+    width: 100%;
+    padding: 14px;
+    background: #ffd000;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">نشر إعلان</div>
+
+<div class="form">
+    <input type="text" placeholder="عنوان الإعلان">
+    <input type="number" placeholder="السعر">
+
+    <select>
+        <option>اختر القسم</option>
+        <option>سيارات</option>
+        <option>عقارات</option>
+        <option>إلكترونيات</option>
+        <option>ملابس</option>
+        <option>مفروشات</option>
+        <option>فرص عمل</option>
+    </select>
+
+    <textarea rows="4" placeholder="وصف الإعلان"></textarea>
+
+    <button>نشر الإعلان</button>
+</div>
+
+</body>
+</html>
